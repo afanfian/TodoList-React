@@ -13,8 +13,8 @@ const Form = ({ input, setInput, todos, setTodos }) => {
 
   return (
     <form onSubmit={onFormSubmit}>
-      <input type="text" placeholder="Enter a Todo..." className="task-input" value={input} required onChange={onInputChange} />
-      <button className="button-add" type="submit">
+      <input type="text" placeholder="Masukkan List anda ..." className="masukkan-list " value={input} required onChange={onInputChange} />
+      <button className="tombol" type="submit">
         Add
       </button>
     </form>

@@ -7,10 +7,10 @@ const TodosList = ({ todos, setTodos, setEditTodo }) => {
   return (
     <div>
       {todos.map((todo) => (
-        <li className="list-item" key={todo.id}>
-          <input type="text" value={todo.title} className="list" onChange={(event) => event.preventDefault()} />
+        <li className="desain-hasil-list" key={todo.id}>
+          <input type="text" value={todo.title} className="hasil-list " onChange={(event) => event.preventDefault()} />
           <div>
-            <button className="button-delete task-button" onClick={() => handleDelete(todo)}>
+            <button className="tombol-hapus " onClick={() => handleDelete(todo)}>
               <i className="fa fa-trash"></i>
             </button>
           </div>

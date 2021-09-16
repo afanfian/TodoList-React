@@ -10,7 +10,7 @@ const TodosList = ({ todos, setTodos, setEditTodo }) => {
         <li className="desain-hasil-list" key={todo.id}>
           <input type="text" value={todo.title} className="hasil-list " onChange={(event) => event.preventDefault()} />
           <div>
-            <button className="tombol-hapus " onClick={() => handleDelete(todo)}>
+            <button className="tombol-hapus task-button" onClick={() => handleDelete(todo)}>
               <i className="fa fa-trash"></i>
             </button>
           </div>
